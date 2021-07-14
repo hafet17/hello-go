@@ -22,4 +22,15 @@ func main() {
 	fmt.Println("Panjang array names = ", len(names))
 	fmt.Println("Panjang array values = ", len(values))
 
+	// step 2
+	var memberList = [10]string{
+		"hafid",
+		"deddy",
+		"dian",
+		"nopal",
+		"fina",
+	}
+
+	fmt.Println(memberList)
+
 }
