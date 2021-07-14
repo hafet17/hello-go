@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	var nilai32 int32 = 7890
 	var nilai64 int64 = int64(nilai32)
 
@@ -12,11 +13,11 @@ func main() {
 	fmt.Println(nilai64)
 	fmt.Println(nilai16)
 
-	name := "Hafid"
-	var e byte = name[0]
+	name := "mohamad hafid"
 
-	var eString string = string(e)
+	var convertByte byte = name[0]
 
-	fmt.Println(name)
-	fmt.Println(eString)
+	var convertString string = string(convertByte)
+	fmt.Println(convertString)
+
 }
