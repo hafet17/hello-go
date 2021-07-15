@@ -12,7 +12,7 @@ func main() {
 	i := 10
 	i += 10 // i = i + 10
 
-	// unary operator
+	// unary op
 	i++ // i = i + 1
 
 	fmt.Println(c)
